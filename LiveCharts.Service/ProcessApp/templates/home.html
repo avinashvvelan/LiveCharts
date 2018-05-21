@@ -1,0 +1,29 @@
+﻿<div>
+    <h1>Process UI</h1>
+
+    <button>Register</button>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Symbol</td>
+                <td>Price</td>
+                <td>Open</td>
+                <td>Change</td>
+                <td>%</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="stock in hc.stockVM">
+                <td>{{stock.Symbol}}</td>
+                <td>{{stock.Price}}</td>
+                <td>{{stock.DayOpen}}</td>
+                <td>{{stock.Change}}</td>
+                <td>{{stock.PercentChange}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="processApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Sample Application</title>
+</head>
+<body ng-controller="mainController as mc">
+    <div>
+        <h1>Head</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div ui-view></div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.1.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-touch.min.js"></script>
+    <script src="Scripts/angular-animate.min.js"></script>
+    <script src="Scripts/ui-router.js"></script>
+    <script src="ProcessApp/Application.js"></script>
+    <script src="ProcessApp/js/services/mainService.js"></script>
+    <script src="ProcessApp/js/services/homeService.js"></script>
+    <script src="ProcessApp/js/controllers/mainController.js"></script>
+    <script src="ProcessApp/js/controllers/homeController.js"></script>
+</body>
+</html>

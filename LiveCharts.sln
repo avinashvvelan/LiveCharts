@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveCharts.Contracts", "LiveCharts.Contracts\LiveCharts.Contracts.csproj", "{4351DD1D-6088-487C-A7C8-0106BA9DE7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveCharts.Data", "LiveCharts.Data\LiveCharts.Data.csproj", "{7DAD1781-BCD7-4979-B47F-BB6543D66579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveCharts.Manager", "LiveCharts.Manager\LiveCharts.Manager.csproj", "{3A874B2E-63A3-4687-89F9-54D0739D7408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveCharts.Service", "LiveCharts.Service\LiveCharts.Service.csproj", "{12A3E32C-643D-4D2F-91E1-7CC2A6AD1F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4351DD1D-6088-487C-A7C8-0106BA9DE7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4351DD1D-6088-487C-A7C8-0106BA9DE7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4351DD1D-6088-487C-A7C8-0106BA9DE7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4351DD1D-6088-487C-A7C8-0106BA9DE7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAD1781-BCD7-4979-B47F-BB6543D66579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAD1781-BCD7-4979-B47F-BB6543D66579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAD1781-BCD7-4979-B47F-BB6543D66579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAD1781-BCD7-4979-B47F-BB6543D66579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A874B2E-63A3-4687-89F9-54D0739D7408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A874B2E-63A3-4687-89F9-54D0739D7408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A874B2E-63A3-4687-89F9-54D0739D7408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A874B2E-63A3-4687-89F9-54D0739D7408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A3E32C-643D-4D2F-91E1-7CC2A6AD1F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A3E32C-643D-4D2F-91E1-7CC2A6AD1F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A3E32C-643D-4D2F-91E1-7CC2A6AD1F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A3E32C-643D-4D2F-91E1-7CC2A6AD1F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {022F9881-311A-4394-98FF-731D8F990800}
+	EndGlobalSection
+EndGlobal
